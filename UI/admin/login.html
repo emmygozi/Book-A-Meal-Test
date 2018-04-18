@@ -2,11 +2,11 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Signin</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/buttonstyle.css">
-	<link rel="stylesheet" type="text/css" href="css/mobileview.css">
-	<script type="text/javascript" src="js/createpopup.js"></script>
+	<title>Admin-Login</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/buttonstyle.css">
+  <link rel="stylesheet" type="text/css" href="../css/mobileview.css">
+	<script type="text/javascript" src="../js/createpopup.js"></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -14,11 +14,10 @@
 <div class="left">
 	<ul>
 		<li class="beautify">Book-A-Meal</li>
-	<li><a href="index.html">Home</a></li>
-    <li><a href="customer-order.html">Make Order</a></li>
-    <li><a href="order-summary.html">Order Summary</a></li>
-    <li><a href="customer-order-history.html">Order History</a></li>
-    
+	<li><a href="#">Home</a></li>
+    <li><a href="#">Admin Management</a></li>
+    <li><a href="#">All Order History</a></li>
+  
     
 	
 	
@@ -27,13 +26,18 @@
 </div>
 
 <div class="right" >
-	<p id="firstadminitem"><a href="admin/login.html" >Admin Login</a></p>
+	<p><a href="#" target="_blank">View Site</a></p>
 </div>
 
 </div>
 <form>
 <div class="mycontainer">
-	<h2>Don't have an account yet? Signup <a href="#" class ="makeorange">here</a></h2>
+	<div>
+		<h2>Admin Login </h2>
+		 <h4 class="lotsofspace">Logout <a href="#" class ="makeorange">here</a></h4>
+	</div>
+	
+
 	<div>
 		<label><b>Email Address</b></label><br>
 		<input type="email" name="mailsddr" placeholder="email"><br>
@@ -44,6 +48,12 @@
 	<div>
 		<label><b>Password</b></label><br>
 		<input type="password" name="passer" ><br>
+		<div class="spacing"></div>
+	</div>
+
+	<div>
+		<label><b>Confirm Password</b></label><br>
+		<input type="password" name="passer2" ><br>
 		<div class="spacing"></div>
 	</div>
 
@@ -59,9 +69,7 @@
 
 <script type="text/javascript">
 
-	var tooltip = document.getElementById("firstadminitem");
-
-	tip(tooltip);
+	
 
 
 </script>
